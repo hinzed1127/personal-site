@@ -16,7 +16,7 @@ export default () => (
       </p>
       <p>
           I'm {" "}
-          <a href="https://github.com/hinzed1127/personal-website">actively building out this site</a>, but{" "}
+          <a href="https://github.com/hinzed1127/personal-site">actively building out this site</a>, but{" "}
           in the meantime, feel free to <a href="mailto:dan.hinze.92@gmail.com">drop me a line</a>.
       </p>
     </div>
