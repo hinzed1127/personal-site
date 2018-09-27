@@ -1,0 +1,25 @@
+body, .container {
+    height: 100vh;
+}
+svg {
+    min-width: 500px;
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    width: fit-content;
+    margin: 0 auto;
+    /* shift left to account for the svg's whitespace */
+    padding-right: 114px;
+}
+
+.greeting {
+    min-width: 350px;
+    max-width: 500px;
+    align-self: center;
+    margin-bottom: 130px;
+}
