@@ -1,8 +1,12 @@
 import React from "react";
 
 export default () => (
-  <svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
-    <g transform="translate(270 205)" fill="none" fill-rule="evenodd">
+  <svg
+    viewBox="-80 0 410 490"
+    preserveAspectRatio="xMinYMin meet"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g fill="none" fill-rule="evenodd">
       <ellipse fill="#FFF" cx="115" cy="79.5" rx="45" ry="53.5" />
       <path fill="#FFF" d="M90 175h55v133H90z" />
       <path

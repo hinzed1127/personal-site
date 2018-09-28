@@ -60,6 +60,9 @@ typings/
 # netlify state file
 .netlify/
 
+# Mac Stuff
+.DS_Store
+
 .cache/
 public
 yarn-error.log
