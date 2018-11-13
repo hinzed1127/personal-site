@@ -63,6 +63,9 @@ typings/
 # Mac Stuff
 .DS_Store
 
+# Editor
+.vscode/
+
 .cache/
 public
 yarn-error.log

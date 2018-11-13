@@ -1,0 +1,21 @@
+---
+path: '/words/putting-things-out-there'
+date: '2018-09-12'
+title: 'Putting Things Out There'
+---
+
+<!-- # Putting Things Out There -->
+
+I'm a slow worker. I toil over things, never 100% satisfied until an inevitable deadline forces me to let something be finished. This struggle brings to mind an episode of Malcolm Gladwell's podcast, [Revisionist History](http://revisionisthistory.com/episodes/07-hallelujah), where he details two types of creativity, contrasted in the differences between Picasso and Cezanne. The former was an example of someone who burst onto the scene, relentlessly creating art that was immediately acclaimed as genius, while the latter tinkered endlessly on variations of the same painting until a version satisfied them. Gladwell proceeds to enumerate examples throughout the arts, listing literature and film before zoning in on music, detailing a brief history of Leonard Cohen's _Hallelujah_ and Elvis Costello's _The Deportees Club_.
+
+What Gladwell doesn't really cover is the effect the internet can have on this process. We live in a golden age of content, but it's also one of **constant** content. We're constantly barraged from all sides by the latest article, album, show, meme, or whatever else one happens to stumble upon. It's overwhelming. The artist's conundrum has evolved from simple "What do I create?" to a slew of questions on top of that.
+
+How often? Where to post it? Purely physical or digital or both? What if people don't like it? What if people do like it but for the wrong reasons? Some of these questions aren't necessarily new, but the role the internet brings in constant engagement and the immediate feedback an audience can give makes creative output all the more exhausting.
+
+And yet there's hope. I just got back from [XOXO](https://2018.xoxofest.com/), which describes itself as "an experimental festival for independent artists and creators who work on the internet." It featured two days full of phenomenal speakers, capped off by 3 evenings of additional talks and activities in categories spanning Film/Animation, Art + Code, Arcade Games, Tabletop Games, Comics, and Writing/Podcasting. On top of inundating me with enough things to check out for the forseeable future, it was surprisingly optimistic. Yes, the world is going through tumultuous times, and the internet has contributed in no small amount to that share of problems. But XOXO highlighted the flipside to that, an internet where disparate communities can connect, where marginalized communities can have an amplified voice(the alt-right being just one example where that proves to be a doubled-edged sword), where creators can be vulnerable and embraced for it, and where sometimes we can all laugh at a dumb meme together.
+
+XOXO's keynote speaker, [Cameron Esposito](https://www.cameronesposito.com/), hit on a theme that stuck with me the entire weekend,summarized in three actions: **engage** by creating art, **ask** your fellow creators for help and feedback, and **invite** others to consume and share it. She emphasized not just the creation of art, but sharing it incompletely, letting yourself hone it out in the open, or simply letting it be consumed for what it is.
+
+There's no shortage of new ways to embrace this philosophy. Justin Vernon's [PEOPLE](https://www.p-e-o-p-l-e.com/) seeks to brings a more publicly iterative approach to music, giving artists a platform to release music regardless of whether it's a fully finished song or the scrappiest fragment of an idea. [Glitch](https://glitch.com/) is taking the creative community approach to coding pioneered by sites like [Codepen](https://codepen.io/) and making it even better. These are just a few of the examples that excite me the most, but it's only scratching the surface of what's out there.
+
+I don't think that any of this is going to make me faster at creating. Things still take time, and I'm not becoming any less of a perfectionist. The change I can embrace, though, is putting a little bit more of that imperfection into the public eye, and becoming comfortable with that. Here's to hoping more people feel the same way.

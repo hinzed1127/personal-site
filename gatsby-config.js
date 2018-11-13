@@ -1,11 +1,19 @@
 module.exports = {
   plugins: [
+    'gatsby-transformer-remark',
+    'gatsby-plugin-styled-components',
     {
-      resolve: "gatsby-plugin-typography",
+      resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: "src/utils/typography.js"
-      }
+        pathToConfigModule: 'src/utils/typography.js',
+      },
     },
-    "gatsby-plugin-styled-components"
-  ]
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/words`,
+        name: 'words',
+      },
+    },
+  ],
 };
