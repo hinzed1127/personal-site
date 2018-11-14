@@ -11,9 +11,6 @@ const ItemHeader = styled.div`
   justify-content: space-between;
 `;
 
-const Place = styled.div`
-  font-weight: 800;
-`;
 const Description = styled.div`
   margin-top: 10px;
 `;
@@ -22,7 +19,7 @@ export default function ({ place, duration, children }) {
   return (
     <ResumeItem>
       <ItemHeader>
-        <Place>{place}</Place>
+        <h3>{place}</h3>
         <span>{duration}</span>
       </ItemHeader>
       <Description>{children}</Description>

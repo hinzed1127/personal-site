@@ -8,7 +8,7 @@ import Mail from '../assets/Mail';
 
 const Footer = styled.footer`
   position: relative;
-  bottom: 10px;
+  margin: 15px auto;
 `;
 
 const Content = styled.div`
@@ -16,32 +16,30 @@ const Content = styled.div`
   margin: 0 auto;
 `;
 
-const Icon = styled.span`
+const IconLink = styled.a`
+  display: inline-block;
+  text-decoration: none;
+  color: black;
   padding: 0 5px;
+  :hover {
+    transform: scale(1.3);
+  }
 `;
 export default () => (
   <Footer>
     <Content>
-      <ExternalLink href="https://github.com/hinzed1127">
-        <Icon>
-          <Github />
-        </Icon>
-      </ExternalLink>
-      <ExternalLink href="https://instagram.com/dan.hinze">
-        <Icon>
-          <Instagram />
-        </Icon>
-      </ExternalLink>
-      <ExternalLink href="https://twitter.com/dan_hinze">
-        <Icon>
-          <Twitter />
-        </Icon>
-      </ExternalLink>
-      <a href="mailto:dan.hinze.92@gmail.com">
-        <Icon>
-          <Mail />
-        </Icon>
-      </a>
+      <IconLink href="https://github.com/hinzed1127" target="_blank" rel="noopener noreferrer">
+        <Github />
+      </IconLink>
+      <IconLink href="https://instagram.com/dan.hinze" target="_blank" rel="noopener noreferrer">
+        <Instagram />
+      </IconLink>
+      <IconLink href="https://twitter.com/dan_hinze" target="_blank" rel="noopener noreferrer">
+        <Twitter />
+      </IconLink>
+      <IconLink href="mailto:dan.hinze.92@gmail.com" target="_blank" rel="noopener noreferrer">
+        <Mail />
+      </IconLink>
     </Content>
   </Footer>
 );

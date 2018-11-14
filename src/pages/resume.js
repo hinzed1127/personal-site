@@ -7,7 +7,6 @@ import Nav from '../components/Nav';
 const ResumeContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  /* grid-template-rows: repeat(5, auto); */
   margin: 0 auto;
   width: 80%;
   max-width: 600px;

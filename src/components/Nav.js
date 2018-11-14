@@ -12,6 +12,7 @@ const NavLink = styled(Link)`
   display: inline-block;
   text-decoration: none;
   padding: 0 15px;
+  color: black;
   &:hover {
     text-decoration: underline;
   }

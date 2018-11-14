@@ -22,6 +22,10 @@ const Content = styled.div`
   justify-content: space-between;
 `;
 
+const ResumeLink = styled(Link)`
+  color: black;
+`;
+
 export default () => (
   <BaseContainer>
     <Content>
@@ -38,8 +42,8 @@ export default () => (
             <ExternalLink href="https://sproutsocial.com/">Sprout Social</ExternalLink> and playing
             sax/writing music with{' '}
             <ExternalLink href="https://www.fayray.band/">Fay Ray</ExternalLink>. I'm currently
-            looking for my next gig. Check out my <Link to="/resume/">resume</Link> to see if I can
-            help you out.
+            looking for my next gig. Check out my <ResumeLink to="/resume/">resume</ResumeLink> to
+            see if I can help you out.
           </p>
         </div>
       </MainContainer>
