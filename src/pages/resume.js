@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import BaseContainer from '../components/Container';
-import ResumeItem from '../components/resumeItem';
+import ResumeItem from '../components/ResumeItem';
 import Nav from '../components/Nav';
 
 const ResumeContainer = styled.div`

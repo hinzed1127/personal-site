@@ -5,7 +5,7 @@ import BaseContainer from '../components/Container';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import ExternalLink from '../components/ExternalLink';
-import RaisingHand from '../assets/raising-hand';
+import RaisingHand from '../assets/RaisingHand';
 import './styles.css';
 
 const MainContainer = styled.main`

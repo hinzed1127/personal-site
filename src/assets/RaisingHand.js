@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default () => (
   <svg
@@ -6,7 +6,7 @@ export default () => (
     preserveAspectRatio="xMinYMin meet"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g fill="none" fill-rule="evenodd">
+    <g fill="none" fillRule="evenodd">
       <ellipse fill="#FFF" cx="115" cy="79.5" rx="45" ry="53.5" />
       <path fill="#FFF" d="M90 175h55v133H90z" />
       <path
