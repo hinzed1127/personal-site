@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import ExternalLink from './ExternalLink';
-import Github from '../assets/github';
-import Instagram from '../assets/instagram';
-import Twitter from '../assets/twitter';
-import Mail from '../assets/mail';
+import Github from '../assets/Github';
+import Instagram from '../assets/Instagram';
+import Twitter from '../assets/Twitter';
+import Mail from '../assets/Mail';
 
 const Footer = styled.footer`
   position: relative;
