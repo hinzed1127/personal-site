@@ -18,9 +18,7 @@ const Description = styled.div`
   margin-top: 10px;
 `;
 
-export default function ({
-  place, position, duration, children,
-}) {
+export default function ({ place, duration, children }) {
   return (
     <ResumeItem>
       <ItemHeader>

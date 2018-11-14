@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import RaisingHand from '../assets/raising-hand';
 
 const NavContainer = styled.nav`
   display: flex;

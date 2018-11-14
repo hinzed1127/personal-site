@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import BaseContainer from '../components/Container';
 import ResumeItem from '../components/resumeItem';
 import Nav from '../components/Nav';
 
@@ -13,7 +14,7 @@ const ResumeContainer = styled.div`
 `;
 
 export default () => (
-  <div>
+  <BaseContainer>
     <Nav />
     <ResumeContainer>
       <ResumeItem place="Sprout Social" duration="March 2017 - August 2018">
@@ -33,5 +34,5 @@ export default () => (
         post-school.
       </ResumeItem>
     </ResumeContainer>
-  </div>
+  </BaseContainer>
 );
