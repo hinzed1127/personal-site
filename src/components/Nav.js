@@ -11,29 +11,26 @@ const NavContainer = styled.nav`
 const NavLink = styled(Link)`
   display: inline-block;
   text-decoration: none;
-  padding: 0 15px;
+  padding: 0 10px;
   color: black;
   &:hover {
     text-decoration: underline;
   }
 `;
 
-const NavLeft = styled.div``;
-
-const NavRight = styled.div``;
 export default function Nav() {
   return (
     <NavContainer>
-      <NavLeft>
+      <div>
         <NavLink to="/">
           <h2>Dan Hinze</h2>
         </NavLink>
-      </NavLeft>
+      </div>
 
-      <NavRight>
+      <div>
         <NavLink to="/words">Words</NavLink>
         <NavLink to="/resume">Resume</NavLink>
-      </NavRight>
+      </div>
     </NavContainer>
   );
 }
