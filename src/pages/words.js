@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import BaseContainer from '../components/Container';
 import Nav from '../components/Nav';
 import PostLink from '../components/PostLink';
@@ -19,6 +20,7 @@ export default function wordsPage({ data }) {
 
   return (
     <BaseContainer>
+      <Helmet title="Words" />
       <Nav />
       <WordsContainer>
         {words.map(wordPost => (

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Helmet } from 'react-helmet';
 import BaseContainer from '../components/Container';
 import ResumeItem from '../components/ResumeItem';
 import Nav from '../components/Nav';
@@ -14,6 +15,7 @@ const ResumeContainer = styled.div`
 
 export default () => (
   <BaseContainer>
+    <Helmet title="Resume" />
     <Nav />
     <ResumeContainer>
       <ResumeItem place="Sprout Social" duration="March 2017 - August 2018">
