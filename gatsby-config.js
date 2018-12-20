@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Dan Hinze',
     siteUrl: 'https://www.danhinze.com',
-    description: 'Twin Cities Musician and Web Developer',
+    description: 'Twin Cities saxophonist, musician, & web developer.',
   },
   plugins: [
     'gatsby-transformer-remark',
