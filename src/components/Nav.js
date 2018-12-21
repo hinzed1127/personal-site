@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
+import Pencil from '../assets/Pencil';
 
 const NavContainer = styled.nav`
   display: flex;
@@ -18,7 +19,16 @@ const NavLink = styled(Link)`
   }
 `;
 
-export default function Nav() {
+const PencilWrapper = styled.span`
+  position: relative;
+  top: 3px;
+  margin: 0 10px;
+  background: ${props => (props.isdrawing ? 'red' : '#fff')};
+`;
+
+export default function Nav({ isDrawing, toggleDraw, children }) {
+  console.log(typeof isDrawing, isDrawing);
+
   return (
     <NavContainer>
       <div>
@@ -26,10 +36,17 @@ export default function Nav() {
           <h2>Dan Hinze</h2>
         </NavLink>
       </div>
-
+      {children}
       <div>
-        <NavLink to="/words">Words</NavLink>
-        <NavLink to="/resume">Resume</NavLink>
+        <PencilWrapper isdrawing={isDrawing} onClick={toggleDraw}>
+          <Pencil />
+        </PencilWrapper>
+        {!isDrawing
+          && <>
+            <NavLink to="/words">Words</NavLink>
+            <NavLink to="/resume">Resume</NavLink>
+          </>
+        }
       </div>
     </NavContainer>
   );

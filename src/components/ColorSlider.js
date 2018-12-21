@@ -2,8 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ColorSlider = styled.input`
+  z-index: 2;
+  position: relative;
   appearance: none;
-  width: 80%;
+  /* width: 80%; */
+  width: 100%;
   height: 25px;
   border: 2px solid black;
   border-radius: 20px;
@@ -28,24 +31,26 @@ const ColorSlider = styled.input`
     appearance: none;
     background-color: ${props => props.color};
     border-radius: 50%;
-    border: 2px solid white;
+    box-shadow: inset 0 0 0 1px ${props => (props.value === -1 ? '#000' : props.color)},
+      inset 0 0 0 2px #fff;
     width: 25px;
     height: 25px;
     cursor: pointer;
   }
 
   &::-webkit-slider-runnable-track {
-    margin: 0 -2px;
+    margin: 0 -3px;
   }
 `;
 
 export default function Slider(props) {
   return (
     <ColorSlider
+      className={props.className}
       type="range"
       min={-1}
       max={361}
-      value={props.value}
+      value={Number(props.value)}
       color={props.color}
       onChange={props.onChange}
     />

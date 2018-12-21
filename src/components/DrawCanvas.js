@@ -1,13 +1,11 @@
 import React from 'react';
-// import styled from 'styled-components';
-// import { createContext } from 'vm';
 
 export default class DrawCanvas extends React.Component {
   constructor() {
     super();
     this.state = {
       isDrawing: false,
-      mouseDown: false,
+      // mouseDown: false,
       lastX: 0,
       lastY: 0,
     };
@@ -16,14 +14,16 @@ export default class DrawCanvas extends React.Component {
     this.handleMouseDown = this.handleMouseDown.bind(this);
     this.handleMouseUp = this.handleMouseUp.bind(this);
     this.handleMouseOut = this.handleMouseOut.bind(this);
-    this.handleMouseOver = this.handleMouseOver.bind(this);
+    // this.handleMouseOver = this.handleMouseOver.bind(this);
   }
 
   componentDidMount() {
     this.ctx = this.canvas.getContext('2d');
 
-    this.canvas.width = window.innerWidth;
-    this.canvas.height = window.innerHeight;
+    this.canvas.style.width = '100%';
+    this.canvas.style.height = '100%';
+    this.canvas.width = this.canvas.offsetWidth;
+    this.canvas.height = this.canvas.offsetHeight;
     this.canvas.style.border = '1px solid #000';
 
     this.ctx.strokeStyle = 'hsl(0, 100%, 50%)';
@@ -68,24 +68,25 @@ export default class DrawCanvas extends React.Component {
   }
 
   handleMouseOut() {
-    console.log('mouse out');
+    // console.log('mouse out');
     this.setState({ isDrawing: false });
   }
 
-  handleMouseOver(e) {
-    return;
-    e.persist();
-    console.log(e.nativeEvent);
-    this.setState(prevState => ({
-      isDrawing: prevState.mouseDown,
-      lastX: e.nativeEvent.offsetX,
-      lastY: e.nativeEvent.offsetY,
-    }));
-  }
+  // handleMouseOver(e) {
+  //   return;
+  //   e.persist();
+  //   console.log(e.nativeEvent);
+  //   this.setState(prevState => ({
+  //     isDrawing: prevState.mouseDown,
+  //     lastX: e.nativeEvent.offsetX,
+  //     lastY: e.nativeEvent.offsetY,
+  //   }));
+  // }
 
   render() {
     return (
       <canvas
+        className={this.props.className}
         onBlur={() => {}}
         ref={canvas => {
           this.canvas = canvas;
@@ -94,8 +95,9 @@ export default class DrawCanvas extends React.Component {
         onMouseDown={this.handleMouseDown}
         onMouseUp={this.handleMouseUp}
         onMouseOut={this.handleMouseOut}
-        onMouseEnter={this.handleMouseOver}
       />
     );
+
+    // onMouseEnter={this.handleMouseOver}
   }
 }
