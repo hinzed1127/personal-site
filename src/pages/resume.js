@@ -18,6 +18,9 @@ export default () => (
     <Helmet title="Resume" />
     <Nav />
     <ResumeContainer>
+      <ResumeItem place="Best Buy" duration="December 2018 - Present">
+        Front end development for Best Buy's main e-commerce website.
+      </ResumeItem>
       <ResumeItem place="Sprout Social" duration="March 2017 - August 2018">
         I worked on the Reporting Squad for Sprout. Highlights include updating core reports to a
         more modern React+Redux architecture, adding description states for missing data scenarios,

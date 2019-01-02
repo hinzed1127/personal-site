@@ -37,13 +37,9 @@ export default () => (
         <div className="greeting">
           <h2>Hi!</h2>
           <p>
-            I'm Dan Hinze, a musician and web developer freshly relocated to Minneapolis. Before
-            that, I was in Chicago, working at{' '}
-            <ExternalLink href="https://sproutsocial.com/">Sprout Social</ExternalLink> and playing
-            sax/writing music with{' '}
-            <ExternalLink href="https://www.fayray.band/">Fay Ray</ExternalLink>. I'm currently
-            looking for my next gig. Check out my <ResumeLink to="/resume/">resume</ResumeLink> to
-            see if I can help you out.
+            I'm Dan Hinze, a musician and web developer recently relocated to Minneapolis and currently at <ExternalLink href="https://bestbuy.com/">Best Buy</ExternalLink>.
+            Before that, I was in Chicago, working at <ExternalLink href="https://sproutsocial.com/">Sprout Social</ExternalLink> and playing sax/writing music with <ExternalLink href="https://www.fayray.band/">Fay Ray</ExternalLink>.
+            I'm always open to new opportunities and colloborations. Feel free to <ExternalLink href="mailto:dan.hinze.92@gmail.com">reach out.</ExternalLink>
           </p>
         </div>
       </MainContainer>
