@@ -5,7 +5,20 @@ module.exports = {
     description: 'Twin Cities saxophonist, musician, & web developer.',
   },
   plugins: [
-    'gatsby-transformer-remark',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 500,
+            },
+          },
+        ],
+      },
+    },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     {
