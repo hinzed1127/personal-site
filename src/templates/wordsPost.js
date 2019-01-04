@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { graphql } from 'gatsby';
 import BaseContainer from '../components/Container';
 import Nav from '../components/Nav';
+import './wordsPost.css';
 
 const Container = styled.div`
   padding: 20px;
@@ -16,7 +17,7 @@ export default function Template({ data }) {
   return (
     <BaseContainer>
       <Nav />
-      <Container>
+      <Container className="blog-post-container">
         <div className="blog-post">
           <h1>{post.frontmatter.title}</h1>
           <h2>{post.frontmatter.date}</h2>
