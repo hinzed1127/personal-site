@@ -8,7 +8,12 @@ import PostLink from '../components/PostLink';
 
 const WordsContainer = styled.div`
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 440px;
+
+  @media (max-width: 530px) {
+    max-width: 85%;
+    font-size: 12px;
+  }
 `;
 
 const WordsPost = styled.li`

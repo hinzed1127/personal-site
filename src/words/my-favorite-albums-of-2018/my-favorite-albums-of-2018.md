@@ -18,7 +18,7 @@ When Aaron Parks released _Invisible Cinema_ in 2008, I was a freshman in high s
 
 ![](the-seasons.jpg)
 
-Already known to me via his role in the group Kneebody and as a saxophonist I generally admire, Ben Wendel released a favorite of mine in 2015 with his project _The Seasons_. Inspired by a Tchaikovsky set of 12 piano pieces with the same name, Wendel wrote 12 duets. Each composition was specifically composed for and performed with a different musical peer, released each month in the form of video live takes (see the whole series [here](https://www.youtube.com/playlist?list=PLYGtF7cNLhBdQ63_d9YZrZ-SVjjmVXTB9)). It was a nice surprise to see him bring back these compositions in a completely new light, rearranging the duets for a larger quintet comprised of musicians featured throughout the original project. Seeing this band live at Constellation in Chicago was one of my favorite concerts of the year. While all of the tunes are great, my favorite in the larger group is "February," with its bouncy melody that grooves a lot harder with the weight of a full band locking into it.
+Already known to me via his role in the group Kneebody and as a saxophonist I generally admire, Ben Wendel released a favorite of mine in 2015 with his project _The Seasons_. Inspired by a Tchaikovsky set of 12 piano pieces with the same name, Wendel wrote 12 duets. Each composition was specifically composed for and performed with a different musical peer, released each month in the form of video live takes (watch the whole series [here](https://www.youtube.com/playlist?list=PLYGtF7cNLhBdQ63_d9YZrZ-SVjjmVXTB9)). It was a nice surprise to see him bring back these compositions in a completely new light, rearranging the duets for a larger quintet comprised of musicians featured throughout the original project. Seeing this band live at Constellation in Chicago was one of my favorite concerts of the year. While all of the tunes are great, my favorite in the larger group is "February," with its bouncy melody that grooves a lot harder with the weight of a full band locking into it.
 
 [Bandcamp](https://benwendel.bandcamp.com/album/the-seasons) | [Spotify](https://open.spotify.com/album/7ghqgjFYnSi2XYdStVTRvv?si=PtDj4cxuTmSHCPKMD9CKaQ)
 
@@ -34,7 +34,7 @@ An L.A.-based musician equally versed in beat-making and jazz piano, Kiefer Shac
 
 ![](con-todo-el-mundo.jpg)
 
-Playing a unique blend of soul, surf, psychedelic, and funk that would fit right into the background of a Tarantino-flavored Western, this is an album that creates its own space, with 10 tracks that remain distinct while complementing each other so well. None of the songs try to do too much, excuding a sparness that feels so good.
+Playing a unique blend of soul, surf, psychedelic, and funk that would fit right into the background of a Tarantino-flavored Western, this is an album that creates its own space, with 10 tracks that remain distinct while complementing each other so well. None of the songs try to do too much, excuding a sparseness that feels so good.
 
 [Bandcamp](https://khruangbin.bandcamp.com/album/con-todo-el-mundo-n-s-america-edition) | [Spotify](https://open.spotify.com/album/42j41uUwuHZT3bnedq2XtM?si=uECuKAHhQpySPRvUieY-HA)
 
