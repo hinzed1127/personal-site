@@ -26,7 +26,7 @@ Already known to me via his role in the group Kneebody and as a saxophonist I ge
 
 ![](happysad.jpg)
 
-An L.A.-based musician equally versed in beat-making and jazz piano, Kiefer Shackelford gets the most out of this duality on _Happysad_, an album that sounds like the musical baby of Robert Glasper's rich neo-soul and J Dilla's tightest tracks. This is music tailor-made for a joyride, reinforced by track titles like "Highway 46" and "Highway 41" or the [music video](https://www.youtube.com/watch?v=spyMOmC3K20) for "What A Day." 
+An L.A.-based musician equally versed in beat-making and jazz piano, Kiefer Shackelford gets the most out of this duality on _Happysad_, an album that sounds like the musical baby of Robert Glasper's rich neo-soul and J Dilla's tightest tracks. This is music tailor-made for a joyride, reinforced by track titles like "Highway 46" and "Highway 41" or the [music video](https://www.youtube.com/watch?v=spyMOmC3K20) for "What A Day."
 
 [Bandcamp](https://kiefer.bandcamp.com/album/happysad) | [Spotify](https://open.spotify.com/album/7t0S1JQpSHsZftfzVQWW2a?si=op1NZSGgQ1qU3eH9rRRQDQ)
 
@@ -46,7 +46,7 @@ Oscillating between a myriad of metal influences, electronic music, and the soni
 
 [Bandcamp](https://danweiss.bandcamp.com/album/starebaby) (No streaming for this one, unfortunately)
 
-## Louis Colo - _Time_
+## Louis Cole - _Time_
 
 ![](time.jpg)
 
@@ -62,11 +62,12 @@ There's a lot of great music coming out of London's jazz scene these days (check
 
 [Bandcamp](https://kamaalwilliams.bandcamp.com/album/the-return) | [Spotify](https://open.spotify.com/album/3hoqy9LEMxDbv0QBKEBVqQ?si=HAiCHXOGSCqtZuGvbIScAA)
 
-----------
+---
 
 ## Honorable Mention
 
 Some others that I liked a lot but haven't dedicated as much listening time to yet:
+
 - **Yves Tumor** - _Safe In The Hands of Love_
 - **Makaya McCraven** - _Universal Beings_
 - **Jakob Bro** - _Bay Of Rainbows_
