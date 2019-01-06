@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'gatsby';
 import BaseContainer from '../components/Container';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
@@ -11,8 +10,9 @@ import './styles.css';
 const MainContainer = styled.main`
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
 `;
 
 const Content = styled.div`
@@ -22,8 +22,18 @@ const Content = styled.div`
   justify-content: space-between;
 `;
 
-const ResumeLink = styled(Link)`
-  color: black;
+const Doodle = styled(RaisingHand)`
+  max-width: 150px;
+  width: auto;
+  height: fit-content;
+  display: inline-block;
+`;
+
+const Greeting = styled.div`
+  display: flex;
+  max-width: 200px;
+  justify-content: space-around;
+  align-items: center;
 `;
 
 export default () => (
@@ -31,11 +41,14 @@ export default () => (
     <Content>
       <Nav />
       <MainContainer>
-        <div className="svg-container">
-          <RaisingHand />
-        </div>
-        <div className="greeting">
+        {/* <div className="svg-container"> */}
+          {/* <RaisingHand /> */}
+        {/* </div> */}
+        <Greeting>
+          <Doodle />
           <h2>Hi!</h2>
+        </Greeting>
+        <div>
           <p>
             I'm Dan Hinze, a musician and web developer recently relocated to Minneapolis and currently at <ExternalLink href="https://bestbuy.com/">Best Buy</ExternalLink>.
             Before that, I was in Chicago, working at <ExternalLink href="https://sproutsocial.com/">Sprout Social</ExternalLink> and playing sax/writing music with <ExternalLink href="https://www.fayray.band/">Fay Ray</ExternalLink>.

@@ -1,10 +1,12 @@
 import React from 'react';
 
-export default () => (
+// preserveAspectRatio="xMinYMin meet"
+
+export default (props) => (
   <svg
-    viewBox="-80 0 410 490"
-    preserveAspectRatio="xMinYMin meet"
+    viewBox="0 0 200 490"
     xmlns="http://www.w3.org/2000/svg"
+    className={props.className}
   >
     <g fill="none" fillRule="evenodd">
       <ellipse fill="#FFF" cx="115" cy="79.5" rx="45" ry="53.5" />

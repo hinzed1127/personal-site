@@ -8,8 +8,7 @@ import PostLink from '../components/PostLink';
 
 const WordsContainer = styled.div`
   margin: 0 auto;
-  max-width: 440px;
-
+  max-width: 75%;
   @media (max-width: 530px) {
     max-width: 85%;
     font-size: 12px;
