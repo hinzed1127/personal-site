@@ -25,7 +25,7 @@ html {
   margin: 0;
 }
 
-.container.vertical {
+/* .container.vertical {
   flex-direction: column;
 }
 
@@ -42,4 +42,4 @@ html {
 
 .greeting {
   padding: 2%;
-}
+} */
