@@ -8,10 +8,9 @@ import PostLink from '../components/PostLink';
 
 const WordsContainer = styled.div`
   margin: 0 auto;
-  max-width: 440px;
-
+  width: 80%;
   @media (max-width: 530px) {
-    max-width: 85%;
+    width: 95%;
     font-size: 12px;
   }
 `;

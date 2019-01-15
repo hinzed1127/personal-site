@@ -2,13 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Link = styled.a`
-  color: black;
+  color: blue;
   text-decoration: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid blue;
 
   &:hover {
-    color: blue;
-    border-bottom: 2px solid blue;
+    color: #008;;
+    border-bottom: 2px solid #008;;
   }
 `;
 
