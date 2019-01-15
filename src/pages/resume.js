@@ -10,8 +10,19 @@ const ResumeContainer = styled.div`
   grid-template-columns: repeat(12, 1fr);
   margin: 0 auto;
   width: 80%;
+  min-width: 270px;
   max-width: 600px;
 `;
+
+const PlaceChunk = styled.span`
+  display: inline-block;
+`;
+
+const UIUC = (
+  <>
+    <PlaceChunk>University of Illinois</PlaceChunk> <PlaceChunk>at Urbana-Champaign</PlaceChunk>
+  </>
+);
 
 export default () => (
   <BaseContainer>
@@ -32,7 +43,7 @@ export default () => (
         transitioned to the engineering side, working on a data mapping tool as part of Uptake's
         data pipeline management tooling.
       </ResumeItem>
-      <ResumeItem place="University of Illinois at Urbana-Champaign" duration="Class of 2015">
+      <ResumeItem place={UIUC} duration="Class of 2015">
         BS in Engineering Physics with minors in Computer Science, Math, and Music. The phenomenal
         CS program at UIUC opened up my interests into programming and helped reroute my goals
         post-school.

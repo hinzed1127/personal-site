@@ -9,8 +9,13 @@ import favicon128 from '../assets/favicon-128.png';
 import favicon196 from '../assets/favicon-196x196.png';
 
 const Container = styled.div`
-  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 650px;
   margin: 0 auto;
+  padding: 0 10px;
 `;
 
 export default ({ children }) => (
