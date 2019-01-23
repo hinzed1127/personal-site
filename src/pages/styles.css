@@ -14,3 +14,29 @@
     font-size: 22px;
   }
 }
+
+html {
+  --red: #B4312F;
+  --teal: #3D889F;
+  --yellow: #D8B948;
+  --green: #367643;
+  --pink: #BF3C66;
+  --darkBlue: #17194D;
+  --beige: #E6D9C5;
+  --gray: #8E8682;
+
+  --adjusted-beige: #EDE4D4;
+  --adjusted-gray: #6C6460;
+
+  --adjusted-beige-2: #E8DEC9;
+  --adjusted-gray-2: #494645;
+
+
+
+  background: var(--adjusted-beige-2);
+  color: var(--adjusted-gray-2);
+}
+
+* {
+  color: #494645;
+}
