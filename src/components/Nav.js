@@ -39,7 +39,7 @@ export default function Nav() {
         <NavLink to="/">
           <h2>Dan Hinze</h2>
         </NavLink>
-        <Cube edgeLength="30px" />
+        <Cube css="margin-left: 5px;" edgeLength="30px" />
       </HomeHeader>
 
       <div>
