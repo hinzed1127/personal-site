@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
+import Cube from './Cube';
+
 
 const NavContainer = styled.nav`
   display: flex;
@@ -25,14 +27,20 @@ const NavLink = styled(Link)`
   }
 `;
 
+const HomeHeader = styled.div`
+  display: flex;
+  width: fit-content;
+`;
+
 export default function Nav() {
   return (
     <NavContainer>
-      <div>
+      <HomeHeader>
         <NavLink to="/">
           <h2>Dan Hinze</h2>
         </NavLink>
-      </div>
+        <Cube edgeLength="30px" />
+      </HomeHeader>
 
       <div>
         <NavLink to="/words">Words</NavLink>
