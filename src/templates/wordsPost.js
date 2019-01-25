@@ -16,7 +16,7 @@ export default function Template({ data }) {
 
   return (
     <BaseContainer>
-      <Nav />
+      {/* <Nav /> */}
       <Container className="blog-post-container">
         <div className="blog-post">
           <h1>{post.frontmatter.title}</h1>

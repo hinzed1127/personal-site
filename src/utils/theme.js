@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export const colors = {
   red: '#B4312F',
   teal: '#3D889F',
@@ -7,4 +8,11 @@ export const colors = {
   darkBlue: '#17194D',
   beige: '#E6D9C5',
   gray: '#8E8682',
+
+  'adjusted-beige': '#EDE4D4',
+  'adjusted-gray': '#6C6460',
+  'adjusted-beige-2': '#E8DEC9',
+  'adjusted-gray-2': '#494645',
+  'adjusted-beige-3': '#e8dec9c4',
+  'adjusted-gray-3': '#2d2b2a',
 };

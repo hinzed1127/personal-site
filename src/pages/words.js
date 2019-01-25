@@ -25,7 +25,7 @@ export default function wordsPage({ data }) {
   return (
     <BaseContainer>
       <Helmet title="Words" />
-      <Nav />
+      {/* <Nav /> */}
       <WordsContainer>
         {words.map(wordPost => (
           <WordsPost key={wordPost.id}>

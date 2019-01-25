@@ -31,7 +31,7 @@ const Main = styled.main`
 
 export default () => (
   <BaseContainer>
-    <Nav />
+    {/* <Nav /> */}
     <Main>
       <Greeting>
         <Doodle />

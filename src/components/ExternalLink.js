@@ -1,14 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
+// TODO refactor color palette more for this to work
+// import { colors } from '../utils/theme';
+
 const Link = styled.a`
-  color: blue;
+  color: #2a6c88;
   text-decoration: none;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #2a6c88;
 
   &:hover {
-    color: #008;;
-    border-bottom: 2px solid #008;;
+    color: #034263;;
+    border-bottom: 2px solid #034263;;
   }
 `;
 

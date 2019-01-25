@@ -2,6 +2,9 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 
+import Nav from './Nav';
+
+
 import favicon16 from '../assets/favicon-16x16.png';
 import favicon32 from '../assets/favicon-32x32.png';
 import favicon96 from '../assets/favicon-96x96.png';
@@ -30,7 +33,7 @@ export default ({ children }) => (
       <meta property="og:site_name" content="Dan Hinze" />
       <meta property="og:locale" content="en_US" />
     </Helmet>
-
+    <Nav />
     {children}
   </Container>
 );

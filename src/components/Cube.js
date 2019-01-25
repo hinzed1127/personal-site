@@ -30,7 +30,7 @@ const Cube = styled.div`
   position: relative;
   transform-style: preserve-3d;
   /* animation: ${rotate} 2s ease-in-out infinite; */
-  animation: ${rotate2} 60s linear infinite;
+  animation: ${rotate2} 90s linear infinite;
 
 `;
 

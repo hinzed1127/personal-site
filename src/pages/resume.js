@@ -27,7 +27,7 @@ const UIUC = (
 export default () => (
   <BaseContainer>
     <Helmet title="Resume" />
-    <Nav />
+    {/* <Nav /> */}
     <ResumeContainer>
       <ResumeItem place="Best Buy" duration="December 2018 - Present">
         Front end development for Best Buy's main e-commerce website.
