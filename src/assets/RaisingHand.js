@@ -1,8 +1,8 @@
 import React from 'react';
 
 // preserveAspectRatio="xMinYMin meet"
-const beige = '#E8DEC9';
-const gray = '#494645';
+const beige = '#e8dec9c4';
+const gray = '#2d2b2a';
 
 export default (props) => (
   <svg

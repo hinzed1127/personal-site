@@ -31,12 +31,14 @@ html {
   --adjusted-beige-2: #E8DEC9;
   --adjusted-gray-2: #494645;
 
+  --adjusted-beige-3: #e8dec9c4;
+  --adjusted-gray-3: #2d2b2a;
 
 
-  background: var(--adjusted-beige-2);
-  color: var(--adjusted-gray-2);
+  background: var(--adjusted-beige-3);
+  color: var(--adjusted-gray-3);
 }
 
 * {
-  color: #494645;
+  color: var(--adjusted-gray-3);
 }
