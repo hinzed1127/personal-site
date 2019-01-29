@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
-import BaseContainer from '../components/Container';
 import ResumeItem from '../components/ResumeItem';
-import Nav from '../components/Nav';
 
 const ResumeContainer = styled.div`
   display: grid;
@@ -25,9 +23,8 @@ const UIUC = (
 );
 
 export default () => (
-  <BaseContainer>
+  <>
     <Helmet title="Resume" />
-    {/* <Nav /> */}
     <ResumeContainer>
       <ResumeItem place="Best Buy" duration="December 2018 - Present">
         Front end development for Best Buy's main e-commerce website.
@@ -49,5 +46,5 @@ export default () => (
         post-school.
       </ResumeItem>
     </ResumeContainer>
-  </BaseContainer>
+  </>
 );

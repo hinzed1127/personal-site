@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { graphql } from 'gatsby';
-import BaseContainer from '../components/Container';
-import Nav from '../components/Nav';
+import { Helmet } from 'react-helmet';
 import './wordsPost.css';
 
 const Container = styled.div`
@@ -15,8 +14,8 @@ export default function Template({ data }) {
   const { markdownRemark: post } = data;
 
   return (
-    <BaseContainer>
-      {/* <Nav /> */}
+    <>
+      <Helmet title={post.frontmatter.title} />
       <Container className="blog-post-container">
         <div className="blog-post">
           <h1>{post.frontmatter.title}</h1>
@@ -24,7 +23,7 @@ export default function Template({ data }) {
         </div>
         <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
       </Container>
-    </BaseContainer>
+    </>
   );
 }
 

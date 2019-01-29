@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 import Nav from './Nav';
 
-
 import favicon16 from '../assets/favicon-16x16.png';
 import favicon32 from '../assets/favicon-32x32.png';
 import favicon96 from '../assets/favicon-96x96.png';

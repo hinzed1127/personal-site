@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import BaseContainer from '../components/Container';
-import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import ExternalLink from '../components/ExternalLink';
 import RaisingHand from '../assets/RaisingHand';
@@ -30,8 +28,7 @@ const Main = styled.main`
 `;
 
 export default () => (
-  <BaseContainer>
-    {/* <Nav /> */}
+  <>
     <Main>
       <Greeting>
         <Doodle />
@@ -46,5 +43,5 @@ export default () => (
       </div>
     </Main>
     <Footer />
-  </BaseContainer>
+  </>
 );

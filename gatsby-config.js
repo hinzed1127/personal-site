@@ -23,6 +23,12 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve('./src/components/Container.js'),
+      },
+    },
+    {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: 'src/utils/typography.js',
