@@ -6,8 +6,11 @@ export const colors = {
   green: '#367643',
   pink: '#BF3C66',
   darkBlue: '#17194D',
-  beige: '#E6D9C5',
-  gray: '#8E8682',
+  // beige: '#E6D9C5',
+  // gray: '#8E8682',
+
+  gray: '#4d4a48',
+  beige: 'dfcb9e',
 
   'adjusted-beige': '#EDE4D4',
   'adjusted-gray': '#6C6460',

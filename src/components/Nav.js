@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 import Cube from './Cube';
 
-
 const NavContainer = styled.nav`
   display: flex;
   justify-content: space-between;
@@ -19,13 +18,35 @@ const NavLink = styled(Link)`
   display: inline-block;
   text-decoration: none;
   padding: 0 10px;
-  color: black;
-
 
   &:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 630px) {
+      font-size: 18px;
+      line-height: 20px;
+  }
 `;
+
+const NameHeader = styled.h1`
+  font-size: 26px;
+  font-weight: bold;
+
+  @media (max-width: 630px) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+`;
+
+const CubeWrapper = styled(Cube)`
+  margin-left: 2px;
+  @media (min-width: 500px) {
+    margin-left: 5px;
+  }
+`;
+
+const isMobile = /(Android|iOS|iPhone|iPod|iPad)/i.test(navigator.userAgent);
 
 const HomeHeader = styled.div`
   display: flex;
@@ -37,12 +58,12 @@ export default function Nav() {
     <NavContainer>
       <HomeHeader>
         <NavLink to="/">
-          <h2>Dan Hinze</h2>
+          <NameHeader>Dan Hinze</NameHeader>
         </NavLink>
-        <Cube css="margin-left: 5px;" edgeLength="25px" />
+        <CubeWrapper edgeLength={isMobile ? '20px' : '25px'} />
       </HomeHeader>
 
-      <div>
+      <div css="display: flex;">
         <NavLink to="/words">Words</NavLink>
         <NavLink to="/resume">Resume</NavLink>
       </div>

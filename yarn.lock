@@ -5055,6 +5055,13 @@ gatsby-link@^2.0.9:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
+gatsby-plugin-html-attributes@^1.0.5:
+  version "1.0.5"
+  resolved "https://code.bestbuy.com/artifactory/api/npm/npm-virtual/gatsby-plugin-html-attributes/-/gatsby-plugin-html-attributes-1.0.5.tgz#811613bdeff119aa4fa61ed33b5147d52d5a7017"
+  integrity sha1-gRYTve/xGapPph7TO1FH1S1acBc=
+  dependencies:
+    babel-runtime "^6.26.0"
+
 gatsby-plugin-layout@^1.0.11:
   version "1.0.11"
   resolved "https://code.bestbuy.com/artifactory/api/npm/npm-virtual/gatsby-plugin-layout/-/gatsby-plugin-layout-1.0.11.tgz#02f9a0103cbd17bdf66fd9a5ca5434d5c089ce88"

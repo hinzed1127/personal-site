@@ -13,16 +13,21 @@ const ItemHeader = styled.div`
 
 const Place = styled.h3`
   margin-right: 5px;
+
   @media (max-width: 630px) {
       max-width: 250px;
-      font-size: 16px;
+      font-size: 14px;
+      line-height: 14px;
   }
 `;
 
 const Duration = styled.span`
-  min-width: 85px;
+  text-align: right;
+  min-width: 110px;
   @media (max-width: 630px) {
       font-size: 14px;
+      line-height: 14px;
+
   }
 `;
 

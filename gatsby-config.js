@@ -41,5 +41,11 @@ module.exports = {
         name: 'words',
       },
     },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en',
+      },
+    },
   ],
 };
