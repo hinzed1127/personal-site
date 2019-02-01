@@ -46,7 +46,8 @@ const CubeWrapper = styled(Cube)`
   }
 `;
 
-const isMobile = /(Android|iOS|iPhone|iPod|iPad)/i.test(navigator.userAgent);
+const windowGlobal = typeof window !== 'undefined';
+const isMobile = (windowGlobal) ? /(Android|iOS|iPhone|iPod|iPad)/i.test(window.navigator.userAgent) : false;
 
 const HomeHeader = styled.div`
   display: flex;
