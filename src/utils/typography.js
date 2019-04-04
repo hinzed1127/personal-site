@@ -19,6 +19,12 @@ const typography = new Typography({
       styles: ['400'],
     },
   ],
+  overrideThemeStyles: ({ rhythm }, options, styles) => ({
+    p: {
+      marginBottom: rhythm(1),
+      marginTop: rhythm(1),
+    },
+  }),
 });
 
 // typography.injectStyles();

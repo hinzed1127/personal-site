@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 import ResumeItem from '../components/ResumeItem';
+import ExternalLink from '../components/ExternalLink';
 
 const ResumeContainer = styled.div`
   display: grid;
@@ -26,7 +27,12 @@ export default () => (
   <>
     <Helmet title="Resume" />
     <ResumeContainer>
-      <ResumeItem place="Best Buy" duration="December 2018 - Present">
+      <ResumeItem place="Ad Hoc" duration="March 2019 - Present">
+        Ad Hoc was founded by members of the HealthCare.gov rescue team. It aims to build fast,
+        stable, and well-designed digital services for the U.S. government. I'm part of the team
+        working on <ExternalLink href="https://va.gov">va.gov</ExternalLink>.
+      </ResumeItem>
+      <ResumeItem place="Best Buy" duration="December 2018 - February 2019">
         Front end development for Best Buy's main e-commerce website.
       </ResumeItem>
       <ResumeItem place="Sprout Social" duration="March 2017 - August 2018">
