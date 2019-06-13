@@ -15,9 +15,9 @@ const Place = styled.h3`
   margin-right: 5px;
 
   @media (max-width: 630px) {
-      max-width: 250px;
-      font-size: 14px;
-      line-height: 14px;
+    max-width: 250px;
+    font-size: 14px;
+    line-height: 14px;
   }
 `;
 
@@ -25,16 +25,15 @@ const Duration = styled.span`
   text-align: right;
   min-width: 110px;
   @media (max-width: 630px) {
-      font-size: 14px;
-      line-height: 14px;
-
+    font-size: 14px;
+    line-height: 14px;
   }
 `;
 
 const Description = styled.div`
   margin-top: 10px;
   @media (max-width: 630px) {
-      font-size: 14px;
+    font-size: 14px;
   }
 `;
 

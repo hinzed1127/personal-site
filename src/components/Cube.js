@@ -38,41 +38,40 @@ const CubeFace = styled.div`
   position: absolute;
   width: ${props => props.edgeLength};
   height: ${props => props.edgeLength};
-  opacity: .5;
+  opacity: 0.5;
 `;
 
 const Front = styled(CubeFace)`
-  transform: rotateY(0deg) translateZ(calc(${props => props.edgeLength}/2));
+  transform: rotateY(0deg) translateZ(calc(${props => props.edgeLength} / 2));
   background: ${colors.red};
 `;
 
 const Back = styled(CubeFace)`
-  transform: rotateY(180deg) translateZ(calc(${props => props.edgeLength}/2));
+  transform: rotateY(180deg) translateZ(calc(${props => props.edgeLength} / 2));
   background: ${colors.yellow};
 `;
 
 const Right = styled(CubeFace)`
-  transform: rotateY(90deg) translateZ(calc(${props => props.edgeLength}/2));
+  transform: rotateY(90deg) translateZ(calc(${props => props.edgeLength} / 2));
   background: ${colors.teal};
 `;
 
-
 const Left = styled(CubeFace)`
-  transform: rotateY(-90deg) translateZ(calc(${props => props.edgeLength}/2));
+  transform: rotateY(-90deg) translateZ(calc(${props => props.edgeLength} / 2));
   background: ${colors.green};
 `;
 
 const Top = styled(CubeFace)`
-  transform: rotateX(90deg) translateZ(calc(${props => props.edgeLength}/2));
+  transform: rotateX(90deg) translateZ(calc(${props => props.edgeLength} / 2));
   background: ${colors.pink};
 `;
 
 const Bottom = styled(CubeFace)`
-  transform: rotateX(-90deg) translateZ(calc(${props => props.edgeLength}/2));
+  transform: rotateX(-90deg) translateZ(calc(${props => props.edgeLength} / 2));
   background: ${colors.darkBlue};
 `;
 
-export default (props) => (
+export default props => (
   <Container {...props}>
     <Cube>
       <Front {...props} />

@@ -1,9 +1,9 @@
 .blog-post-container a {
   text-decoration: none;
-  border-bottom: 1px solid hsla(0,0%,0%,0.8);
-  color: hsla(0,0%,0%,0.8);
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 0%, 0.8);
 }
 
 .blog-post-container a:visited {
-    color: hsla(0,0%,0%,0.8);
+  color: hsla(0, 0%, 0%, 0.8);
 }

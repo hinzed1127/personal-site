@@ -12,10 +12,10 @@ const Link = styled.a`
   border-bottom: 2px solid #21546a;
 
   &:hover {
-    color: #034263;;
-    color: #034263;;
-    border-bottom: 2px solid #034263;;
-    border-bottom: 2px solid #034263;;
+    color: #034263;
+    color: #034263;
+    border-bottom: 2px solid #034263;
+    border-bottom: 2px solid #034263;
   }
 `;
 

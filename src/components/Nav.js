@@ -24,8 +24,8 @@ const NavLink = styled(Link)`
   }
 
   @media (max-width: 630px) {
-      font-size: 18px;
-      line-height: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
 `;
 
@@ -47,7 +47,9 @@ const CubeWrapper = styled(Cube)`
 `;
 
 const windowGlobal = typeof window !== 'undefined';
-const isMobile = (windowGlobal) ? /(Android|iOS|iPhone|iPod|iPad)/i.test(window.navigator.userAgent) : false;
+const isMobile = windowGlobal
+  ? /(Android|iOS|iPhone|iPod|iPad)/i.test(window.navigator.userAgent)
+  : false;
 
 const HomeHeader = styled.div`
   display: flex;
