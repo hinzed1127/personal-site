@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import { graphql } from 'gatsby';
-import { Helmet } from 'react-helmet';
-import './wordsPost.css';
+import React from "react";
+import styled from "styled-components";
+import { graphql } from "gatsby";
+import { Helmet } from "react-helmet";
+import "./wordsPost.css";
 
 const Container = styled.div`
   padding: 20px;
@@ -19,7 +19,7 @@ export default function Template({ data }) {
       <Container className="blog-post-container">
         <div className="blog-post">
           <h1>{post.frontmatter.title}</h1>
-          <h2>{post.frontmatter.date}</h2>
+          {/* <h2>{post.frontmatter.date}</h2> */}
         </div>
         <div
           className="blog-post-content"

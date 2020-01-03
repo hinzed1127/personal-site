@@ -1,7 +1,7 @@
 ---
-path: '/words/my-favorite-albums-of-2018'
-date: '2019-01-03'
-title: 'My Favorite Albums of 2018'
+path: "/words/my-favorite-albums-of-2018"
+date: "2019-01-03"
+title: "My Favorite Albums of 2018"
 ---
 
 2018 was a great year of listening for me. Releases by artists I already love combined with new discoveries yielded plenty of albums that I've had on loop and will continue to come back to for a while. Here were a few of my favorites:

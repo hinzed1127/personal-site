@@ -1,7 +1,7 @@
 ---
-path: '/words/putting-things-out-there'
-date: '2018-09-12'
-title: 'Putting Things Out There'
+path: "/words/putting-things-out-there"
+date: "2018-09-12"
+title: "Putting Things Out There"
 ---
 
 I'm a slow worker. I toil over things, never 100% satisfied until an inevitable deadline forces me to let something be finished. This struggle brings to mind an episode of Malcolm Gladwell's podcast, [Revisionist History](http://revisionisthistory.com/episodes/07-hallelujah), where he details two types of creativity, contrasted in the differences between Picasso and Cezanne. The former was an example of someone who burst onto the scene, relentlessly creating art that was immediately acclaimed as genius, while the latter tinkered endlessly on variations of the same painting until a version satisfied them. Gladwell proceeds to enumerate examples throughout the arts, listing literature and film before zoning in on music, detailing a brief history of Leonard Cohen's _Hallelujah_ and Elvis Costello's _The Deportees Club_.
