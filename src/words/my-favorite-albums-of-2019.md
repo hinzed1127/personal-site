@@ -20,7 +20,7 @@ Highlights:
 
 ## Against All Logic - _2012-2017_ (2018)
 
-This whole album was on loop for me for a while. All of the pacing is phenomenal, with grooves that rise and fall and just suck you in. It's hard to keep from nodding your head along to every track. Narrowing this day to a handful of highlight tracks was hard.
+This whole album was on loop for me for a while. All of the pacing is phenomenal, with grooves that rise and fall and just suck you in. It's hard to keep from nodding your head along to every track. Narrowing this down to a handful of highlight tracks was hard.
 
 Highlights:
 
@@ -40,7 +40,7 @@ Highlights:
 
 ## Tortoise - _TNT_ (1998)
 
-Guitarist Jeff Parker released one of my favorite records a few years ago with _The New Breed_. I wanted to dive into some more of his music, and I was familiar with Tortoise as a group he's been involved with for a while. _TNT_ seems to be regarded as their classic album. It took a couple listens, but I found repeated exposure to this album really rewarding. It's a unique type of post-rock, flavored with more jazz stylings that seemed to come from Parker's entry into the band (this was his first album with them), as well as the electronic influence heard in their earlier efforts.
+Guitarist Jeff Parker released one of my favorite records a few years ago with _The New Breed_. Wanting to dive into some more of his music, I was familiar with Tortoise as a group he's been involved with for a while. While they've had quite a few releases over 30 years now, _TNT_ seems to be regarded as their classic album. It took a couple listens, but I found repeated exposure to this album really rewarding. It's a unique type of post-rock, flavored with more jazz stylings that seemed to come from Parker's entry into the band (this was his first album with them), as well as the electronic influence heard in their earlier efforts.
 
 Highlights:
 
@@ -50,7 +50,7 @@ Highlights:
 
 ## SUN SPEAK - _Moon Preach_
 
-Sun Speak is a Chicago duo that I've had the pleasure of catching multiple times in person. It really emphasizes the smallness of the group seeing just guitar nad drums on a stage. Rather than shy away from that, Matt Gold and Nate Friedman really embrace it, creating sounds that are both quietly intimate, but still managing to have songs that feel larger, played strongly on top of loops and other synthesized sounds provided in a third voice by collaborator Dan Pierson.
+Sun Speak is a Chicago duo that I've had the pleasure of catching multiple times in person. The smallness of the group is really emphasized by seeing just a guitar and drums on stage. Rather than shy away from that, Matt Gold and Nate Friedman really embrace maximum results from minimal components, creating sounds that are quietly intimate but still managing to have songs that feel larger. Many of the songs are given more heft with a foundation of loops and other synthesized sounds provided in a third voice by collaborator Dan Pierson.
 
 Highlights:
 
